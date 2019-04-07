@@ -3,8 +3,8 @@
 
 def key_for_min_value(name_hash)
     if name_hash.empty?
-    nil 
-  end 
+      return nil 
+    end 
   
   lowest_value = "" 
   lowest_key = ""
